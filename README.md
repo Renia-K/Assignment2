@@ -45,6 +45,7 @@ The texts were collected manually from the following sources:
 The Greek translated texts were obtained from the Greek Language Center website (https://www.greek-language.gr/).
 
 Translations used: 
+
 **Demosthenes**: Translated by A. Tyflopoulos – Edited by D. Iakovos (2006).
 
 **Thucydides**: Translated by E. Lambridis (1962).
@@ -74,9 +75,13 @@ Testing the large model produced as well wrong results.
 The annotated data includes:
 
 `Tokenized Text`: Individual tokens extracted from the raw text.
+
 `Lemmatized Text`: Lemmatized forms of the tokens.
+
 `Parts of Speech (POS)`: POS tags for each token.
+
 `Named Entity Labels`: Tags assigned to entities in the text (though the NER results were not fully accurate).
+
 Annotations were generated using the spaCy NLP library.
 
 ## File Formats
@@ -84,6 +89,7 @@ Annotations were generated using the spaCy NLP library.
 The corpus is available in the following formats:
 
 **Raw Text Files (.txt)**: Contain the original texts as they were collected manually.
+
 **Annotated Corpus File (.csv)**: Includes all the processed and annotated data.
 
 | CSV Column Names | Description                               |
