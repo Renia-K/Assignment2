@@ -46,7 +46,9 @@ The Greek translated texts were obtained from the Greek Language Center website 
 
 Translations used: 
 **Demosthenes**: Translated by A. Tyflopoulos – Edited by D. Iakovos (2006).
+
 **Thucydides**: Translated by E. Lambridis (1962).
+
 **Lysias**: Translated by G.A. Raptis (2004).
 
 ## Cleaning and Preprocessing
@@ -54,9 +56,13 @@ Translations used:
 The preprocessing steps applied to the texts are as follows:
 
 `Loading Texts`: Created a dictionary associating each file name with its corresponding text.
+
 `Cleaning`: Removed extra spaces and normalized the text for further processing.
+
 `Tokenization and Lemmatization`: Tokenized the text into individual words and lemmatized them using the spaCy NLP library.
+
 `Part-of-Speech (POS) Tagging`: Tagged each token with its POS category.
+
 `Named Entity Recognition (NER)`: Extracted named entities from the texts using spaCy.
 
 However, the model's performance was suboptimal:
